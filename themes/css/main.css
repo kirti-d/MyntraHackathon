@@ -93,7 +93,8 @@ section.header_text{
 	border-bottom:1px solid #fff;
 }
 section.homepage-slider{
-	border-bottom:1px dotted #eb4800;
+	border-bottom:1px dotted #ff577f;
+	
 	padding-bottom:1px;
 	position: relative;
 	top:0;
@@ -109,7 +110,7 @@ section.homepage-slider div.intro{
 	opacity:.7;
 }
 section.homepage-slider h1{
-	background-color:#eb4800;
+	background-color:#ff577f;
 	color:#fff;
 	padding:2px 7px;
 	font-size:30px;
@@ -147,7 +148,7 @@ section.custon_button {
 	border: solid black 5px;
 	margin: 5% 20%;
 	font-size: 320%;
-	padding: 5%;
+	padding: 2%;
 	text-align: center;
 }
 /* end common */
@@ -284,7 +285,7 @@ section.navbar{
 	border-right: 0;
 	border-left: 0;
 	border-top: 0;
-	border-bottom:5px solid #eb4800;
+	border-bottom:5px solid #ff577f;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;	
 	border-radius: 0;
@@ -319,16 +320,16 @@ section.navbar{
 	padding: 10px 14px;
 	}
 #menu > ul > li.active{
-	background-color:#eb4800;
+	background-color:#ff577f;
 }
 #menu > ul > li.active > a{
 	color:#fff;
 }
 #menu > ul a:hover{
-	color: #eb4800; 
+	color: #ff577f; 
 	text-decoration:none;
 }
-#menu .current{color: #eb4800 !important;}
+#menu .current{color: #ff577f !important;}
 
 #menu ul ul {
     background: none repeat scroll 0 0 #eee;
@@ -360,8 +361,8 @@ section.navbar{
     color: #333;
     font-size: 12px;
 }
-#menu ul ul a:hover,#menu > ul > li:hover > a{color: #fff;background-color:#eb4800}
-#menu ul ul a:hover{background-color:#eb4800;}
+#menu ul ul a:hover,#menu > ul > li:hover > a{color: #fff;background-color:#ff577f}
+#menu ul ul a:hover{background-color:#ff577f;}
 #menu > ul > li:hover {visibility: inherit;}
 #menu li:hover {visibility: inherit;}
 #menu li:hover ul,
@@ -376,7 +377,7 @@ section.navbar{
     top: 0px;
 }
 #menu li.sfHover > a{
-	color:#eb4800;
+	color:#ff577f;
 }
 #menu .sf-sub-indicator{
 	display:none;
@@ -392,7 +393,7 @@ section.navbar{
 }
 .feature_box img{	
 	margin-bottom:10px;
-	background-color:#eb4800;
+	background-color:#ff577f;
 	padding:25px;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;	
@@ -489,7 +490,7 @@ h4.title.m{
 	width:100%;
 }
 h4.title strong{
-	color:#eb4800;
+	color:#ff577f;
 }
 h4.title span.text{
 	background-color:#fff;
@@ -513,7 +514,7 @@ h4.title .left,h4.title .right{
 	cursor: pointer;
 }
 h4.title .left:hover,h4.title .right:hover{
-	background-color:#eb4800;
+	background-color:#ff577f;
 }
 h4.title .button:hover{
 	text-decoration: none;
@@ -637,7 +638,7 @@ section.our_client .row{
 	text-align: center;
 	padding: 7px;
 	border: 1px solid #ddd;
-	border-top: 3px solid #eb4800;
+	border-top: 3px solid #ff577f;
 	-moz-box-shadow: 0 0 3px 0 #ccc;
 	-webkit-box-shadow: 0 0 3px 0 #ccc;
 	box-shadow: 0 0 3px 0 #ccc;
@@ -681,7 +682,7 @@ section.our_client .row{
 }
 .nav-list > .active > a, .nav-list > .active > a:hover{
 	background-color: transparent;
-	color:#eb4800;
+	color:#ff577f;
 	text-shadow: none;	
 	font-weight: bold;
 }
@@ -691,7 +692,7 @@ section.our_client .row{
 ._toggleMenu{
 	margin:0 -10px;
 	display:none;
-	background:#eb4800;	
+	background:#ff577f;	
 }
 ._toggleMenu a{
 	color:#fff;
@@ -708,7 +709,7 @@ section.our_client .row{
 }
 ._toggleMenu a:hover{
 	color:#fff;
-	background-color:#df403d !important;
+	background-color:#ff577f !important;
 }
 ._toggleMenu .nav {
 	margin:0;
@@ -778,7 +779,7 @@ section.our_client .row{
 	#footer-bar .nav li{float:left;}
 	#footer-bar  .nav a:hover{
 		background-color:transparent;
-		color:#eb4800;
+		color:#ff577f;
 	}
 	.feature_box .service{	
 		border-bottom:1px solid #eee;
