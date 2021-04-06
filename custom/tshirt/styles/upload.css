@@ -1,22 +1,38 @@
+
 #container {
 	margin: 0px auto;
 	width: 500px;
-	height: 375px;
+	height: 500px;
 	border: 10px #333 solid;
 }
 
 #videoElement {
 	width: 500px;
-	height: 375px;
+	height: 500px;
 	background-color: #666;
 }
 
 /* Fixes the double display bug */
 #canvas {
-	position: absolute;
+	position:relative;
 }
 
 #finalImage {
 	width: 500px;
 	height: 375px;
 }
+#info {
+	color: #ffffff;
+	font-family: Roboto, sans-serif;
+	text-align: left;
+	padding: 10px;
+  }
+.panel {
+	
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	border-radius: 8px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+   
+  }

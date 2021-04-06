@@ -13,14 +13,14 @@
 </head>
 
 <body>
-
+  
   <div class="header">
     <!-- <a href="../index.html"><i id="backbutton" class="fas fa-times"></i></a> -->
     <!-- <input id="designName" placeholder="ENTER TITLE OF DESIGN" type="text" name="fname" autocomplete="off"><br> -->
   </div>
-
-  <div class="main">
-    <div class="right">
+ 
+  <div class="main" >
+    <div class="right" id="panel">
 
       <!-- not working -->
       <button onclick="undo()"><i id="change2" class="fas fa-undo"></i></button>
@@ -48,27 +48,21 @@
 
     </div>
 
-    <div class="left">
+    <div class="left" id="panel">
 
-      <div class="left1">
-        <img class="squareShape"
-          src="https://cdn.discordapp.com/attachments/508801763349102596/652444733628481536/testing4.png"
-          alt="neckline"><br>
-        <button id="leftButton1" onclick="changeShape('neck')">CHANGE NECKLINE</button>
+      <div class="left1" id="info">
+        
+        <button style="color: white; font-size: medium;" id="leftButton1" onclick="changeShape('neck')">CHANGE NECKLINE</button>
       </div>
 
-      <div class="left2">
-        <img class="squareShape"
-          src="https://cdn.discordapp.com/attachments/508801763349102596/652444729413337088/testing2.png"
-          alt="sleeve"><br>
-        <button id="leftButton2" onclick="changeShape('sleeve')">CHANGE SLEEVE</button>
+      <div class="left2" id="info">
+       
+        <button style="color: white; font-size: medium;"id="leftButton2" onclick="changeShape('sleeve')">CHANGE SLEEVE</button>
       </div>
 
-      <div class="left3">
-        <img class="squareShape"
-          src="https://cdn.discordapp.com/attachments/508801763349102596/652444731426603028/testing3.png"
-          alt="waist"><br>
-        <button id="leftButton3" onclick="changeShape('waist')">CHANGE WAIST</button>
+      <div class="left3" id="info">
+        
+        <button style="color: white; font-size: medium;"id="leftButton3" onclick="changeShape('waist')">CHANGE WAIST</button>
       </div>
 
     </div>
@@ -86,7 +80,7 @@
       <div class="contentbase">
         <button id="flipButton" onclick="flipDesign()"><i id="change2" class="fas fa-caret-left"></i></button></button>
         <p1 id="flipped">FLIP</p1>
-        <button id="flipButton" onclick="flipDesign()"><i id="change2" class="fas fa-caret-right"></i></ /button>
+        <button id="flipButton" onclick="flipDesign()"><i id="change2" class="fas fa-caret-right"></i></button>
           </button>
       </div>
     </div>
